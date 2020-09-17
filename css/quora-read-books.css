@@ -1,0 +1,205 @@
+.main_inner .mi_left {
+    order: 2;
+    max-width: 32.4rem;
+}
+.main_inner .mi_left ul li:before{
+	display: none;	
+}
+.mi_left h2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid #dbdada;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 10rem;
+}
+.whole_content_wrapper {
+    background-color: #fff;
+}
+.main_inner .mi_left ul li a {
+    width: 100%;
+    font-size: 1.45rem;
+    text-transform: none;
+    color: #195faa;
+}
+.mil_inner {
+    position: sticky;
+    top: 12.2rem;
+}
+.main_inner .mi_left ul li:first-child a{
+	color: #195faa;
+}
+.main_inner .mi_left ul li:hover a{
+	text-decoration: underline;
+	opacity: 1.0;
+}
+.main_inner .mi_left ul li.ask a {
+    color: #9c9090;
+    font-size: 1.2rem;
+}
+.main_inner .mi_left ul li:last-child {
+    border-bottom: none;
+}
+/*related Question*/
+.related_question{
+	position: relative;
+}
+.related_question ul{
+    padding-left: 2rem; 
+}
+.related_question h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dbdada;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem; 
+}
+.related_question ul li a {
+    width: 100%;
+    font-size: 1.45rem;
+    text-transform: none;
+    color: #195faa;
+}
+.content_posts_wrapper .related_question {
+    padding: 1.8rem 0;
+}
+.related_question p {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    color: #a29999;
+}
+
+
+/*main middle content*/
+.link_wrapper {
+    margin-bottom: 1.2rem;
+}
+.link_wrapper a {
+    font-size: 1.25rem;
+    font-family: roboto;
+    background-color: #f7f7f8;
+    padding: 0.6rem 0.7rem;
+    border-radius: 2px;
+    color: #938888;
+}
+.link_wrapper button.edit {
+    border: none;
+    background: none;
+    margin-left: 1rem;
+}
+.content_post_single .post_foot .pf_right i:first-of-type {
+    display: inline;
+}
+.content_post_single .post_foot .pf_right span i {
+    margin-right: 0.8rem;
+}
+.content_post_single .post_foot .pf_right i {
+    color: #747474;
+}
+.content_posts_wrapper .content_post_single {
+    margin-bottom: 0;
+}
+.content_post_single {
+    border-top: 1px solid #e8e4e4;
+}
+.content_ad .total_answer p{
+	margin-top: 3rem;	
+}
+.content_post_single .post_head {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+} 
+.content_ad .post_head {
+    margin-bottom: 0;
+}
+.content_ad .post_head .ph_right button{
+	padding: 0;	
+}  
+.content_ad .post_head .ph_left p {
+    color: #929090;
+    font-size: 1.3rem;
+}
+.content_question{
+	border-top: none;
+}
+.content_question .post h2:hover{
+	text-decoration: none;
+}
+.content_question .post h2{
+	margin-top: 0.2rem;	
+}
+.content_post_single .post p {
+    color: #443f3f;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-size: 1.68rem;
+    font-family: roboto;
+}
+.content_top_slide {
+    border-top: 1px solid gainsboro;
+}
+.content_post_single .post_bottom {
+    display: block;
+}
+.content_post_single .post_bottom .add_comment {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_post_single .post_bottom .add_comment img {
+    width: 4rem;
+    border-radius: 50%;
+}
+.content_posts_wrapper .content_post_single .post_bottom {
+
+    padding: 0.7rem 1.7rem;
+    background-color: #f7f7f8;
+    border-radius: 3px;
+    margin-top: 1rem;
+    border: 1.5px solid #d5d5d5;
+
+}
+.content_post_single .post_bottom .add_comment input {
+    flex: 1 1 auto;
+    margin: 0 0.6rem;
+    border: 1px solid #ede7e7;
+    border-radius: 3rem;
+    padding: 0 1.8rem;
+}
+.content_post_single .post_bottom .add_comment button {
+    border: none;
+    background-color: #8b8bfb;
+    padding: 0.7rem 1.4rem;
+    border-radius: 2rem;
+    color: #fcf8f8;
+    font-weight: bold;
+    align-self: center;
+}
+
+
+
+
+/*media query*/
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.link_wrapper a{
+		display: inline-block;	
+		margin-top: 1rem;	
+	}
+	.content_question .post_foot .pf_right i {
+    margin-left: 0;
+    margin-top: 1rem;
+	}
+	.content_posts_wrapper .related_question {
+	    padding: 1.8rem inherit;
+	}
+	.content_post_single .post_head .ph_left img{
+		align-self: center;
+	}
+	.ph_sum {
+    	max-width: 20rem;
+	}
+	.ph_right {
+    align-self: center;
+		}
+
+}
